@@ -1,0 +1,62 @@
+*{
+    /* Eliminamos espacios y márgenes*/
+       margin:0;
+       padding:0;
+    /* Declaramos una tipografía para TODO */
+        font-family: "Tauri", sans-serif;
+     /* header*/
+}
+.encabezado{
+
+background-image: url('../assets/abstract-light-background.jpg');
+background-size: cover;
+background-position: center;
+}
+.encabezado img{
+width: 200px;
+}
+
+.menu-list li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+ /* Main*/
+
+.letra{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 100px;
+    font-style: normal;
+    color: #ffffff;
+}
+.card p{
+    text-align: justify;
+}
+.card{
+    background-color: #978383;
+    width: 300px;
+    border-radius: 15px;
+}    
+.card button{
+    background-color: #00ff00;
+    color: #ffffff;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    font-style: normal;
+}
+.cont-img{
+    width: 300px;
+}  
+.cont-img img{
+
+    width: 100%;
+}
+/* footer*/
+.menu-list2 li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.tamano-de-imagen img{
+    width: 30px;
+}
