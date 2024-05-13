@@ -1,28 +1,3 @@
-*{
-    /* Eliminamos espacios y márgenes*/
-       margin:0;
-       padding:0;
-    /* Declaramos una tipografía para TODO */
-        font-family: "Tauri", sans-serif;
-     /* header*/
-}
-.encabezado{
-
-background-image: url('../assets/abstract-light-background.jpg');
-background-size: cover;
-background-position: center;
-padding-bottom: 20px;
-}
-.encabezado img{
-width: 200px;
-}
-
-.menu-list li a{
-    color: #ffffff;
-    text-decoration: none;
-}
- /* Main*/
-
 .letra{
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
@@ -66,14 +41,4 @@ width: 200px;
     display: flex;
     flex-flow: wrap;
     justify-content: space-evenly;
-}
-
-
-/* footer*/
-.menu-list2 li a{
-    color: #ffffff;
-    text-decoration: none;
-}
-.tamano-de-imagen img{
-    width: 30px;
 }
